@@ -1,8 +1,10 @@
 [project]
 name = "erpy"
-version = "0.1.1"
+version = "0.1.2alpha1"
 authors = [
   { name="Liam Strand", email="strandliam@gmail.com" },
+  { name="Michael Daniels", email="michael.daniels618738@tufts.edu" },
+
 ]
 description = "Leverages the existing Term package to implement a simple Erlang port driver that communicates over standard input and output."
 readme = "README.md"
@@ -14,9 +16,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/liam-strand/erpy"
-Issues = "https://github.com/liam-strand/erpy/issues"
-Repository = "https://github.com/liam-strand/erpy"
+Homepage = "https://github.com/mdaniels5757/erpy"
+Issues = "https://github.com/mdaniels5757/erpy/issues"
+Repository = "https://github.com/mdaniels5757/erpy"
 
 [build-system]
 requires = ["setuptools"]
